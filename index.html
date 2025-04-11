@@ -1,7 +1,75 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h1>Hello! I'm Arnold Teka</h1>
-    <p>Welcome to my personal website.</p>
-  </body>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arnold Teka</title>
+    <meta name="description" content="Building innovative solutions for modern challenges">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="assets/favicon.ico">
+    
+    <!-- Open Graph / Social Meta Tags -->
+    <meta property="og:title" content="Arnold Teka">
+    <meta property="og:description" content="Building innovative solutions for modern challenges">
+    <meta property="og:image" content="assets/images/profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@yourhandle">
+</head>
+<body class="min-h-screen bg-black text-zinc-100">
+    <div class="fixed inset-0 z-0">
+        <div class="absolute inset-0 bg-[conic-gradient(from_180deg_at_50%_75%,black_0deg,rgba(16,185,129,0.1)_90deg,black_180deg)]"></div>
+    </div>
+    
+    <div class="relative z-10 max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+        <!-- Header Section -->
+        <div class="text-center mb-16">
+            <h1 class="text-5xl font-bold mb-4 inline-block text-transparent bg-clip-text bg-gradient-to-r from-white via-emerald-400 to-white bg-[length:200%] animate-gradient">
+                Arnold Teka
+            </h1>
+            <p class="text-gray-200 mb-4 leading-relaxed">
+                Building innovative solutions for modern challenges
+            </p>
+            <div class="h-1 w-24 bg-gradient-to-r from-white via-emerald-400 to-white bg-[length:200%] animate-gradient mx-auto rounded-full opacity-50"></div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="rounded-xl bg-card text-card-foreground relative border-0 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-emerald-500/20 group">
+            <div class="p-6 relative z-10">
+                <div class="prose prose-lg dark:prose-invert max-w-none">
+                    <div class="mb-4 text-center !text-gray-900 dark:text-gray-100">
+                        <p>Hey, I'm Arnold. I am a <strong>passionate developer</strong> specializing in <strong>web technologies</strong> and <strong>user experience</strong>.</p>
+                        <p>With experience in <strong>front-end development</strong> and <strong>technical solutions</strong>, I combine technical expertise with creative problem-solving.</p>
+                        <p>My focus is on building accessible, performant web applications that deliver exceptional user experiences.</p>
+                    </div>
+
+                    <!-- Profile Image -->
+                    <div class="mt-6 mb-8 flex flex-col items-center">
+                        <img alt="Arnold Teka" loading="lazy" 
+                             class="rounded-lg shadow-lg max-h-[400px] w-auto"
+                             src="assets/images/profile.jpg">
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="mt-12 mb-12 flex justify-center">
+                        <button class="bg-emerald-600 text-white px-8 py-4 rounded-lg hover:bg-emerald-700 transition-colors duration-300 text-lg font-medium">
+                            View My Projects
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="mt-12 mb-8 px-0 sm:px-4">
+            <div class="w-full sm:max-w-xl mx-auto">
+                <div class="w-full flex flex-col sm:flex-row gap-4">
+                    <a href="https://github.com/arnoldteka" target="_blank" 
+                       class="w-full bg-white/90 hover:bg-white text-zinc-800 hover:text-black border-2 border-zinc-300 px-6 py-4 text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-[1.02]">
+                        GitHub Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
